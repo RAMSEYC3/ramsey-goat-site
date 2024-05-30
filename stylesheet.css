@@ -1,0 +1,1105 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    /* background-color: black; */
+}
+
+html,
+body {
+    position: relative;
+    height: 100%;
+}
+
+body {
+    /* background: #eee; */
+    font-family: "Abril Fatface", serif;
+    color: #000;
+    margin: 0;
+    padding: 0;
+}
+
+.swipercon {
+    /* border: 1px solid #000; */
+    width: 100%;
+    height: 690px;
+}
+
+.swiper {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(0.60);
+}
+
+img {
+    background-size: cover;
+}
+
+.navbarcon {
+    /* border: 1px solid #ac0000; */
+    width: 100%;
+    position: relative;
+    z-index: 1000000;
+}
+
+.navbarcon {
+    /* border: 1px solid #f50000; */
+    width: 100%;
+    height: 50%;
+    top: 1px;
+    position: absolute;
+    z-index: 100;
+}
+
+.nav {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /* align-items: center; */
+}
+
+.link1 {
+    margin-top: 60px;
+    /* border: 1px solid #000; */
+    width: 10%;
+    height: 40px;
+}
+
+.link2 {
+    margin-top: 60px;
+    /* border: 1px solid #000; */
+    width: 10%;
+    height: 40px;
+}
+
+.logo {
+    /* border: 1px solid #000; */
+    width: 30%;
+    height: 50%;
+}
+
+.logo2 {
+    width: 100%;
+    height: 100%;
+    background-size: cover !important;
+}
+
+.link3 {
+    margin-top: 60px;
+    /* border: 1px solid #000; */
+    width: 10%;
+    height: 40px;
+    padding-left: 20px;
+}
+
+.link4 {
+    margin-top: 60px;
+    /* border: 1px solid #000; */
+    width: 10%;
+    height: 40px;
+}
+
+a {
+    text-align: center;
+    font-size: 25px;
+    color: #ffffff;
+    letter-spacing: 2px;
+    font-weight: 100;
+}
+
+a:hover {
+    color: #d18238;
+}
+
+#sticker1cont {
+    /* border: 1px solid #c50000; */
+    /* width:100%; */
+    height: 1px;
+    position: relative;
+}
+
+#sticker {
+
+    /* border: 1px solid #c50000; */
+    width: 100%;
+    height: 200px;
+    position: absolute;
+    top: -350px;
+    z-index: 1000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#sticker div {
+    /* border: 1px solid #000; */
+    width: 20%;
+    height: 250px;
+}
+
+#main {
+    /* border: 1px solid #000; */
+    background-color: rgb(207, 206, 204);
+    width: 100%;
+    height: 1000px;
+    display: flex;
+    flex-direction: column;
+}
+
+#section1 {
+    /* border: 1px solid #a10b0b; */
+    width: 100%;
+    height: 40%;
+    display: flex;
+    flex-direction: row;
+
+}
+
+#sidetext1 {
+    /* border: 4px solid #2ea300; */
+    width: 33.33%;
+    height: 100%;
+}
+
+#sidetext1 h1 {
+    text-align: center;
+    /* border: 1px solid #000; */
+}
+
+#sidetext1 p{
+    margin-top:20px ;
+    text-align: center;
+    /* border: 1px solid #000; */
+}
+
+#logo2 {
+    background-image: url(/images/vecteezy_coffee-with-eyes-ai-generative_23214889.png);
+    background-size: contain;
+    /* border: 3px solid #f50021; */
+    width: 33.33%;
+    height: 100%;
+}
+
+#sidetext2 {
+    /* border: 4px solid #240053; */
+    width: 33.33%;
+    height: 100%;
+}
+
+#sidetext2 h2{
+    text-align: center;
+    /* border: 1px solid #000; */
+}
+
+#sidetext2 p{
+    margin-top:30px ;
+    text-align: center;
+    /* border: 1px solid #000; */
+}
+
+h1:hover,p:hover , h2:hover{
+    color: #d18238;
+    
+}
+
+#text2 {
+    /* border: 1px solid #000; */
+    color: black;
+    font-size: 18px;
+    padding-left: 20px;
+    margin-top: 20px;
+}
+
+#text3 {
+    /* border: 1px solid #000; */
+    color: black;
+    padding-left: 72px;
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+}
+
+#text2:hover,
+#text3:hover {
+    color: #d18238;
+}
+
+#text4 {
+    /* border: 1px solid green; */
+    width: 100%;
+    height: 30%;
+}
+
+#section2 {
+    /* border: 1px solid #2415af; */
+    margin-bottom: 10px;
+    width: 100%;
+    height: 60%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+#sectioncon1 {
+    /* border: 1px solid #bb1818; */
+    width: 29%;
+    height: 100%;
+}
+
+#sectioncon2 {
+    /* border: 1px solid #097bbd; */
+    width: 29%;
+    height: 100%;
+}
+
+#sectioncon3 {
+    /* border: 1px solid #700808; */
+    width: 29%;
+    height: 100%;
+}
+
+#image1 {
+    /* border: 1px solid #000; */
+    width: 100%;
+    height: 70%;
+    background-image: url(/1images/culture-307.jpg);
+    background-size: contain;
+}
+
+#image2 {
+    /* border: 1px solid #000; */
+    width: 100%;
+    height: 70%;
+    background-image: url(/1images/culture-36.jpg);
+    background-size: contain;
+}
+
+#image3 {
+    /* border: 1px solid #000; */
+    width: 100%;
+    height: 70%;
+    background-image: url(/1images/culture-espresso-38-street.jpg);
+    background-size: contain;
+}
+
+#insidetext1 h1 {
+    /* border: 1px solid #000; */
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    word-spacing: 2px;
+    font-size: 20px;
+}
+
+#insidetext1 p {
+    /* border: 1px solid #000; */
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: center;
+    word-spacing: 2px;
+    font-weight: 100;
+}
+
+#insidetext2 h1 {
+    /* border: 1px solid #000; */
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    word-spacing: 20px !important;
+    font-size: 20px;
+}
+
+#insidetext2 p {
+    /* border: 1px solid #000; */
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: center;
+    word-spacing: 2px;
+    font-style: normal;
+}
+
+#insidetext3 h1 {
+    /* border: 1px solid #000; */
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    word-spacing: 2px;
+    font-size: 20px;
+}
+
+#insidetext3 p {
+    /* border: 1px solid #000; */
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: center;
+    word-spacing: 2px;
+    font-weight: 100 !important;
+}
+
+#lastsection {
+    position: relative;
+    /* border: 1px solid #000; */
+    width: 100%;
+}
+
+#lastsection1 {
+    position: absolute;
+    background-image: url(/1images/19058114_6063688.jpg);
+    background-size: contain;
+    filter: brightness(0.60);
+    /* border: 1px solid #b40000; */
+    width: 100%;
+    height: 900px;
+}
+
+#logo5 {
+    padding-top: 20px;
+    padding-left: 30px;
+    /* border: 1px solid #000; */
+    width: 250px;
+    height: 200px;
+    margin: auto;
+}
+
+#galllery1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    /* border: 1px solid #000; */
+    margin-top: 40px;
+    width: 100%;
+    height: 210px;
+
+}
+
+#gallleryimg1 {
+    /* border: 2px solid #000; */
+    width: 20%;
+    height: 100%;
+    margin-left: 4px;
+
+}
+
+
+
+#gallleryimg2 {
+    /* border: 2px solid #000; */
+    width: 20%;
+    height: 100%;
+}
+
+#gallleryimg3 {
+    /* border: 2px solid #000; */
+    width: 20%;
+    height: 100%;
+}
+
+#gallleryimg4 {
+    /* border: 2px solid #000; */
+    width: 20%;
+    height: 100%;
+}
+
+#galllery2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 15px;
+    /* border: 2px solid #000; */
+    width: 100%;
+    height: 210px;
+}
+
+#gallleryimg5 {
+    /* border: 2px solid #000; */
+    width: 20%;
+    height: 100%;
+    margin-left: 70px;
+
+}
+
+#gallleryimg6 {
+    /* border: 2px solid #000; */
+    width: 20%;
+    height: 100%;
+}
+
+#gallleryimg7 {
+    /* border: 2px solid #000; */
+    width: 20%;
+    height: 100%;
+    margin-right: 70px;
+}
+
+#galllery3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 13px;
+    /* border: 2px solid #000; */
+    width: 100%;
+    height: 210px;
+}
+
+#gallleryimg8 {
+    margin-left: 200px;
+    /* border: 2px solid #000; */
+    width: 20%;
+    height: 100%;
+}
+
+#gallleryimg9 {
+    margin-right: 200px;
+    /* border: 2px solid #000; */
+    width: 20%;
+    height: 100%;
+}
+
+.img1,
+.img2,
+.img3,
+.img4,
+.img5,
+.img6,
+.img7,
+.img8 {
+    background-size: cover;
+    width: 265px;
+    height: 204px;
+}
+
+footer {
+    /* border: 2px solid black; */
+    position: relative;
+    width: 100%;
+}
+
+#footer {
+    /* border: 2px solid black; */
+    background-color: #011314;
+    position: absolute;
+    width: 100%;
+    height: 350px;
+    top: 900px;
+    display: flexbox;
+    flex-direction: column;
+    justify-content:space-between;
+    margin-top: 30px;
+}
+
+#footerimg1 {
+    background-image: url(/1images/culture-bird.png);
+    background-size: contain;
+    margin: auto;
+    margin-top: 13px;
+    /* border: 1px solid #860000; */
+    width: 110px;
+    height: 100px;
+}
+
+#footericons {
+    margin-top: 6px;
+    /* border: 1px solid #00771a; */
+    width: 100%;
+    height: 20%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#icon1 {
+    background-image: url(/2images/facebook-svgrepo-com.svg);
+    background-size: contain;
+    /* border: 1px solid #00771a; */
+    width: 40px;
+    height: 40px;
+    margin: 0px 5px;
+}
+
+#icon2 {
+    background-size: contain;
+    /* border: 1px solid #00771a; */
+    width: 40px;
+    height: 40px;
+    background-image: url(/2images/instagram-svgrepo-com.svg);
+    margin: 0px 5px;
+}
+
+#icon3 {
+    background-image: url(/2images/twitter-3-svgrepo-com.svg);
+    background-size: contain;
+    /* border: 1px solid #00771a; */
+    width: 40px;
+    height: 40px;
+    margin: 0px 5px;
+}
+
+#foottext {
+    margin-bottom: 10px;
+    /* border: 1px solid #640092; */
+    width: 100%;
+    height: 30%;
+}
+
+#foottext p {
+    margin: 30px 0px;
+    text-align: center;
+    /* border: 1px solid #ffffff; */
+    color: #ffffff;
+    word-spacing: 5px;
+    font-style: normal;
+    font-weight: 100;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+#menu {
+    /* border: 1px solid #000; */
+    width: 100%;
+    height: 790px;
+}
+
+#menutext {
+    background-color: #d6ccc275;
+    /* border: 1px solid #000; */
+    width: 100%;
+    height: 150px;
+}
+
+#menutext1 {
+    text-align: center;
+    /* border: 1px solid #000; */
+    word-spacing: 10px;
+    margin-top: 20px;
+    margin-bottom: 35px;
+
+}
+
+#menutext a {
+    text-align: center;
+    font-size: 30px;
+    /* border: 1px solid #000; */
+    width: 90px;
+    display: inline;
+    color: #000;
+    word-spacing: 3px;
+}
+
+
+#menu1 {
+    margin-left: 150px;
+}
+
+#menu2 {
+    margin-left: 50px;
+
+}
+
+#menu3 {
+    margin-left: 50px;
+
+}
+
+#menu4 {
+    margin-left: 50px;
+
+}
+
+#menu5 {
+    margin-left: 50px;
+    width: 90px;
+    height: 43px;
+}
+
+#Drinks {
+    /* border: 1px solid #000; */
+    width: 100%;
+    height: 790px;
+    display: flex;
+    flex-direction: row;
+}
+
+#drinks1 {
+    /* border: 1px solid #ae00ff; */
+    width: 50%;
+    height: 790px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+}
+
+#menuimage1 {
+    border: 1px solid #000;
+    width: 100%;
+    height: 30%;
+    border-radius: 25px;
+}
+
+#menuimage2 {
+    border: 1px solid #000;
+    width: 100%;
+    height: 30%;
+    border-radius: 25px;
+
+}
+
+#menuimage3 {
+    border: 1px solid #000;
+    width: 100%;
+    height: 30%;
+    border-radius: 25px;
+
+}
+
+#drinks2 {
+    /* border: 1px solid #000; */
+    /* border: 1px solid #000; */
+    width: 50%;
+    height: 790px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+
+#menuimage4 {
+    width: 100%;
+    height: 30%;
+    border-radius: 25px;
+    border: 1px solid #000;
+
+
+}
+
+#menuimage5 {
+    border: 1px solid #000;
+    width: 100%;
+    height: 30%;
+    border-radius: 25px;
+
+}
+
+#menuimage6 {
+    border: 1px solid #000;
+    width: 100%;
+    height: 30%;
+    border-radius: 25px;
+}
+
+#imagecon1 {
+    background-image: url(/IMAGESMENU/item-500000038089716219_1711575909.png);
+    /* border: 4px dotted #8d0000; */
+    background-size: contain;
+    width: 300px;
+    height: 100%;
+    border-radius: 25px;
+}
+
+#imagecon2 {
+    background-image: url(/IMAGESMENU/item-442ca440-20dc-40a5-930a-358dc31be623.jpg);
+    /* border: 4px dotted #8d0000; */
+    background-size: contain;
+    width: 310px;
+    border-radius: 25px;
+    height: 100%;
+}
+
+#imagecon3 {
+    background-image: url(/IMAGESMENU/item-928d92c6-4c79-414f-a81c-c77467e89927.jpg);
+    /* border: 4px dotted #8d0000; */
+    background-size: contain;
+    width: 350px;
+    height: 100%;
+    border-radius: 25px;
+}
+
+#imagecon4 {
+    background-image: url(/IMAGESMENU/item-bbf515a2-4422-4c4b-94f3-5e23a7751b2b.png);
+    /* border: 4px dotted #8d0000; */
+    background-size: contain;
+    width: 350px;
+    height: 100%;
+    border-radius: 25px;
+}
+
+#imagecon5 {
+    background-image: url(/IMAGESMENU/item-bbff8c8d-9097-4eeb-93f4-1cdd6312e20e.png);
+    /* border: 4px dotted #8d0000; */
+    background-size: contain;
+    width: 350px;
+    height: 100%;
+    border-radius: 25px;
+}
+
+
+#imagecon6 {
+    background-image: url(/IMAGESMENU/item-d2ce39fe-e9bc-49f4-a334-32d9e9a30273.jpg);
+    /* border: 4px dotted #8d0000; */
+    background-size: contain;
+    width: 350px;
+    height: 100%;
+    border-radius: 25px;
+}
+
+#footermenu {
+    background-color: #011314;
+    /* border: 1px solid #000; */
+    width: 100%;
+    height: 300px;
+    margin-top: 150px;
+    display: flex;
+    flex-direction: column;
+}
+
+#footerimage2 {
+    background-image: url(/1images/culture-bird.png);
+    background-size: contain;
+    margin: auto;
+    margin-top: 13px;
+    /* border: 1px solid #860000; */
+    width: 110px;
+    height: 100px;
+}
+
+#footericon1 {
+    /* border: 1px solid #000; */
+    padding-top:20px ;
+    width: 100%;
+    height: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#footertext2 {
+    /* border: 1px solid #000; */
+    width: 100%;
+    height: 50%;
+    padding: 50px;
+    text-align: center;
+    /* border: 1px solid #ffffff; */
+    color: #ffffff;
+    word-spacing: 5px;
+    font-style: normal;
+    font-weight: 100;
+}
+
+#Drinks {
+    position: relative;
+}
+
+#Menutext3 {
+    border: 1px solid #000;
+    width: 350px;
+    height: 200px;
+    position: absolute;
+    left: 300px;
+    top: 40px;
+    text-align: center;
+    padding: 50px 0px;
+    border-radius:35px ;
+}
+
+#Menutext3:hover{
+    border: 4px dashed #803e00;
+}
+
+
+
+#Menutext4 {
+    border: 1px solid #000;
+    width: 290px;
+    height: 200px;
+    position: absolute;
+    left: 1040px;
+    top: 40px;
+    text-align: center;
+    padding: 50px 0px;
+    border-radius:35px ;
+
+}
+
+#Menutext4:hover{
+    border: 4px dashed #803e00;
+}
+
+#Menutext5 {
+    border: 1px solid #000;
+    width: 290px;
+    height: 200px;
+    position: absolute;
+    left: 1040px;
+    top: 300px;
+    text-align: center;
+    padding: 50px 0px;
+    border-radius:35px ;
+}
+
+#Menutext5:hover{
+    border: 4px dashed #803e00;
+}
+
+#Menutext6 {
+    border: 1px solid #000;
+    width: 330px;
+    height: 200px;
+    position: absolute;
+    left: 320px;
+    top: 300px;
+    text-align: center;
+    padding: 50px 0px;
+    border-radius:35px ;
+}
+
+#Menutext6:hover{
+    border: 4px dashed #803e00;
+}
+
+#Menutext7 {
+    border: 1px solid #000;
+    width: 280px;
+    height: 200px;
+    position: absolute;
+    left: 370px;
+    top: 550px;
+    text-align: center;
+    padding: 50px 0px;
+    border-radius:35px ;
+}
+
+#Menutext7:hover{
+    border: 4px dashed #803e00;
+}
+
+#Menutext8 {
+    border: 1px solid #000;
+    width: 300px;
+    height: 200px;
+    position: absolute;
+    left: 1040px;
+    top: 550px;
+    text-align: center;
+    padding: 50px 0px;
+    border-radius:35px ;
+}
+
+#Menutext8:hover{
+    border: 4px dashed #803e00;
+    display: block;
+}
+
+#signin {
+    /* border: 1px solid #000; */
+    width: 100%;
+    height: 1300px;
+    display: flex;
+    flex-direction: column;
+}
+
+#form {
+    /* border: 5px solid #960000; */
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+
+#formtext {
+    /* border: 5px solid #08db08; */
+    width: 100%;
+    height: 10%;
+}
+
+#formtext h1 {
+    margin-top:10px ;
+    color: #000000;
+    text-align: center;
+
+}
+
+
+#formtext2 {
+    /* border: 5px solid #a6ff00; */
+    width: 100%;
+    height: 20%;
+
+
+}
+
+#formtext2 p {
+    margin-top:40px ;
+    color: #000000;
+    text-align: center;
+    word-spacing: 5px;
+}
+
+#formsign {
+    /* border: 5px solid #a000a0; */
+    width: 100%;
+    height: 70%;
+    padding-left: 470px;
+    padding-top: 20px;
+    background-color: #888888;
+    border-radius:40px ;
+
+
+
+}
+
+input[type=text],
+select {
+    width: 40%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    margin: auto;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=email],
+select {
+    width: 40%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+
+input[type=text],
+select {
+    width: 40%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=password],
+select {
+    width: 40%;
+    padding: 12px 20px;
+    margin: 10px 0;
+    display: inline-block !important;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 40%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover{
+    color: #000;
+}
+
+
+
+#hoursOperation {
+    /* border: 5px solid #0723c2; */
+    width: 100%;
+    height: 50%;
+    padding-left:350px ;
+    padding-top:100px ;
+}
+
+.operating-hours {
+    background-color: #888888;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    max-width: 600px;
+    text-align: center;
+}
+
+h2 {
+    margin-bottom: 20px;
+    color: #333333;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    padding: 12px;
+    border-bottom: 1px solid #dddddd;
+    text-align: left;
+}
+
+th {
+    background-color: #f8f8f8;
+    color: #555555;
+}
+
+tr:hover {
+    background-color: #f1f1f1;
+}
+
+#footercontacts{
+        /* border: 2px solid black; */
+        background-color: #011314;
+        /* position: absolute; */
+        width: 100%;
+        height: 320px;
+        top: 900px;
+        display: flexbox;
+        flex-direction: column;
+        justify-content: space-evenly;
+}
+
+#footerimgcontacts{
+    background-image: url(/1images/culture-bird.png);
+    background-size: contain;
+    margin: auto;
+    /* margin-top: 13px; */
+    /* border: 1px solid #860000; */
+    width: 110px;
+    height: 100px;
+}
+
+ 
