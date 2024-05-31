@@ -1,4 +1,6 @@
 
+alert("hello visiter welcome to culture exppress");
+
   var swiper = new Swiper(".mySwiper", {
     effect: 'fade',
     loop: true,
